@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server --progress --color --mode development --config webpack.config.development.js",
+    "start": "webpack-dev-server --progress --color --mode development --config webpack.config.development.js --disable-host-check --host 0.0.0.0",
     "prebuild": "rimraf ./dist/*",
     "build": "webpack --color --mode production --config webpack.config.production.js",
     "lint": "eslint ./",
