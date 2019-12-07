@@ -1,0 +1,20 @@
+// prevents type errors for asset imports
+declare module "*.glb" {
+    const filename: string;
+    export default filename;
+}
+
+declare module "*.jpg" {
+    const filename: string;
+    export default filename;
+}
+
+declare module "*.png" {
+    const filename: string;
+    export default filename;
+}
+
+declare module "*.gif" {
+    const filename: string;
+    export default filename;
+}
