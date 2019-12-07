@@ -70,5 +70,6 @@ module.exports = {
         host: '0.0.0.0',
         disableHostCheck: true,
         port: 8080,
+        public: 'https://8080-d440fd84-7a21-4c65-97a1-b6bcf6483f67.ws-us02.gitpod.io',
     }
 };
