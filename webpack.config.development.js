@@ -66,6 +66,9 @@ module.exports = {
         clientLogLevel: 'warning',
         open: false,
         historyApiFallback: true,
-        stats: 'errors-only'
+        stats: 'errors-only',
+        host: '0.0.0.0',
+        disableHostCheck: true,
+        port: 8080,
     }
 };
