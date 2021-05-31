@@ -1,4 +1,4 @@
-# MJV - Jquery Typescript Webpack boilerplate
+# Jquery Typescript Webpack boilerplate
 
 ### Setup
 `npm install` para instalar os pacotes
